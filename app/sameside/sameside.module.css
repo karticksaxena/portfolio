@@ -235,7 +235,7 @@
 /* ---------- Install ---------- */
 
 .cards { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 12px; }
-.card { padding: 32px; border: 1px solid var(--border); border-radius: 16px; background: var(--surface); }
+.card { min-width: 0; padding: clamp(20px, 5vw, 32px); border: 1px solid var(--border); border-radius: 16px; background: var(--surface); }
 .card h3 { font-size: 1.25rem; margin-bottom: 18px; }
 .card ol { padding-left: 1.2em; margin: 0; color: var(--muted); }
 .card li { margin-bottom: 12px; }
@@ -293,7 +293,7 @@
 @media (max-width: 900px) {
   .features { grid-template-columns: 1fr; }
   .features li, .features li + li { padding: 28px 0; border-left: 0; border-bottom: 1px solid var(--border); }
-  .cards { grid-template-columns: 1fr; }
+  .cards { grid-template-columns: minmax(0, 1fr); }
   .bento { grid-template-columns: 1fr 1fr; }
 }
 @media (max-width: 520px) {

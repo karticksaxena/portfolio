@@ -1,9 +1,9 @@
 # kartiksaxena.com
 
-My portfolio and project pages, built with Next.js and deployed on Vercel.
+Live at [www.kartiksaxena.com](https://www.kartiksaxena.com). My portfolio and project pages, built with Next.js and deployed on Vercel.
 
 - `/` - portfolio home
-- `/sameside` - [SameSide](https://github.com/karticksaxena/SameSide), a free macOS menu bar app
+- [`/sameside`](https://www.kartiksaxena.com/sameside) - [SameSide](https://github.com/karticksaxena/SameSide), a free macOS menu bar app
 
 ## Develop
 
