@@ -99,6 +99,7 @@ export default function SameSidePage() {
           <div className={styles.heading}>
             <span className={styles.eyebrow}>How it works</span>
             <h2 id="how-title">One click. The right screen.</h2>
+            <p>Unlike tools that drag your windows across screens, SameSide never moves anything. It brings up the window that&apos;s already on the screen you&apos;re using.</p>
           </div>
           <ul className={styles.features}>
             <li>
