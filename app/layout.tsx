@@ -6,7 +6,7 @@ import "./global.css";
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://kartiksaxena.com"),
+  metadataBase: new URL("https://www.kartiksaxena.com"),
   title: { default: "Kartik Saxena", template: "%s · Kartik Saxena" },
   description: "Kartik Saxena. Things I build.",
 };
