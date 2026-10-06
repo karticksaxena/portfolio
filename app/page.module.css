@@ -8,5 +8,6 @@
   text-decoration: none; color: var(--text); background: var(--surface);
   border: 1px solid var(--border); transition: transform 0.15s;
 }
+.project + .project { margin-top: 14px; }
 .project:hover { transform: translateY(-2px); }
 .project span { display: block; color: var(--muted); font-size: 15px; }
