@@ -16,6 +16,12 @@ export default function Home() {
             <span>Dock clicks that open windows on the screen you&apos;re using.</span>
           </div>
         </Link>
+        <Link className={styles.project} href="/dreams">
+          <div>
+            <b>My Dream Games</b>
+            <span>Kartik&apos;s dreams, turned into playable games.</span>
+          </div>
+        </Link>
       </div>
     </main>
   );
